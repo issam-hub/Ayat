@@ -1,0 +1,107 @@
+body {
+    /* font-family: "Aref Ruqaa", serif; */
+    font-family: "Amiri", serif;
+    /* overflow: hidden; */
+}
+
+.filter {
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 124.6%;
+    width: 100%;
+    backdrop-filter: blur(1.3px);
+}
+
+.picAuthor {
+    z-index: 5;
+    position: relative;
+    display: flex;
+    width: fit-content;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    font-size: clamp(1rem, 5vw, 1.5rem);
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+}
+
+.picAuthor p {
+    color: black;
+    font-weight: bold;
+    -webkit-text-stroke: 0.5px white;
+}
+.picAuthor a {
+    padding-left: 10px;
+    color: rgb(81, 86, 226);
+    font-weight: bold;
+}
+
+.content {
+    z-index: 4;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: max(300px, 40%);
+    height: fit-content;
+    padding: 30px 20px;
+    color: white;
+    backdrop-filter: blur(20px);
+    background-color: rgb(0 0 0 / 10%);
+    text-align: center;
+    border-radius: 20px;
+    margin: 100px auto;
+}
+.content .ayah {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.content .ayahEn {
+    font-weight: bold;
+    padding-block: 20px;
+}
+.content .mds {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .arMds,
+.content .enMds {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 45%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 400px) {
+    .content .mds {
+        flex-direction: column;
+    }
+    .content .arMds {
+        width: 70%;
+    }
+    .content .enMds {
+        width: 80%;
+    }
+}
+
+.random {
+    background-color: #13315c;
+    padding: 15px 14px 8px 16px;
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.random i {
+    color: #eef4ed;
+    font-size: 1.7rem;
+}
