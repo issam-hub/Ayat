@@ -11,4 +11,6 @@ Ayat, a website that generates random ayat from the holy Quran.
 - [Quran API](https://alquran.cloud/api)
 - font awesome
 
+### => [Live Demo](https://issam-hub.github.io/Ayat/)
+
 `Oh God, benefit us with the Qur'an 🤲`
