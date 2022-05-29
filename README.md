@@ -10,4 +10,4 @@ Ayat, a website that generates random ayat from the holy Quran.
 - [Unsplash API](https://unsplash.com/developers)
 - [Quran API](https://alquran.cloud/api)
 
-* Oh God, benefit us with the Qur'an 🤲
+`Oh God, benefit us with the Qur'an 🤲`
